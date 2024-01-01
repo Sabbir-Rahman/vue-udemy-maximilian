@@ -6,9 +6,6 @@ const app = Vue.createApp({
             imgUrl: 'https://picsum.photos/300'
         }
     },
-    methods: {
-
-    }
 })
 
 app.mount('#assignment')
