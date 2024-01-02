@@ -17,6 +17,13 @@ const app = Vue.createApp({
       return this.name + ' ' + 'Rahman'
     }
   },
+  watch: {
+    counter(value){
+      if (value > 50) {
+        this.counter = 0
+      }
+    }
+  },
   methods: {
     confirmedInput(){
       this.confirmedName = this.name
